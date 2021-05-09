@@ -86,6 +86,7 @@
 
 <script>
 import axios from "axios";
+import url, { devServer, stagingServer } from "../../vue.config.js";
 export default {
     data() {
         return {
@@ -106,7 +107,7 @@ export default {
             this.$validator.validateAll().then(async valid => {
                 if (!valid) return;
                 axios
-                    .post("api/account/register", this.form)
+                    .post(devServer.register, this.form)
                     .then(response => {
                         this.onReset();
                         this.onRedirectToHome();
