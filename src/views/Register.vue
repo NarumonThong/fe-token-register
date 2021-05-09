@@ -3,7 +3,7 @@
         <img src="/img/logo3.png" alt="Logo" class="img-logo">
             <div class="card">
                 <h1 class="card-header">
-                    ลงทะเบียน
+                    ลงทะเบียนสมัครสมาชิก
                 </h1>
                 <div class="card-body">
                             
