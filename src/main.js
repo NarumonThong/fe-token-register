@@ -1,8 +1,14 @@
 import Vue from 'vue'
+import VeeValidate from 'vee-validate'
 import App from './App.vue'
 import router from './router'
 
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap'
+import './assets/styles.css'
+
 Vue.config.productionTip = false
+Vue.use(VeeValidate)
 
 new Vue({
   router,
